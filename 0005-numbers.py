@@ -6,6 +6,7 @@ z = 1j   # complex
 print(type(x))
 print(type(y))
 print(type(z))
+print("\n")
 
 print("Integer")
 x = 1
@@ -15,6 +16,7 @@ z = -3255522
 print(type(x))
 print(type(y))
 print(type(z))
+print("\n")
 
 print("Float")
 x = 1.10
@@ -24,6 +26,7 @@ z = -35.59
 print(type(x))
 print(type(y))
 print(type(z))
+print("\n")
 
 
 x = 35e3
@@ -33,6 +36,7 @@ z = -87.7e100
 print(type(x))
 print(type(y))
 print(type(z))
+print("\n")
 
 print("Complex")
 x = 3+5j
@@ -42,8 +46,9 @@ z = -5j
 print(type(x))
 print(type(y))
 print(type(z))
+print("\n")
 
-print("Type Conversion")
+print("Type Conversion:")
 x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
@@ -64,6 +69,7 @@ print(c)
 print(type(a))
 print(type(b))
 print(type(c))
+print("\n")
 
-print("Random Number")
+print("Random Number:")
 print(random.randrange(1, 100))

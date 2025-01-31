@@ -5,71 +5,84 @@ z = float(3)  # z will be 3.0
 print(x)
 print(y)
 print(z)
+print("\n")
 
 
 x = 5
 y = "John"
 print(type(x))
 print(type(y))
+print("\n")
 
 x = "John"
 print(x)
 # is the same as
 x = 'John'
 print(x)
+print("\n")
 
 a = 4
 A = "Sally"
 # A will not overwrite a
 print(a)
+print("\n")
 
-print("Many values to Multiple Variables print")
+print("Many values to Multiple Variables print:")
 x, y, z = "Orange", "Apple", "Banana"
 print(x)
 print(y)
 print(z)
+print("\n")
 
-print("One Value to Multiple Variables print")
+print("One Value to Multiple Variables print:")
 x = y = z = "Orange"
 print(x)
 print(y)
 print(z)
+print("\n")
 
-print("Unpack Collections")
+print("Unpack Collections:")
 fruits = ["Apple", "Orange", "Banana"]
 x, y, z = fruits
 print(x)
 print(y)
 print(z)
+print("\n")
 
 # Output Variables
 x = "Python is awesome"
 print(x)
+print("\n")
 
-print("Output Multiple Variables")
+print("Output Multiple Variables:")
 x = "Python"
 y = "is"
 z = "awesome"
 print(x, y, z)
+print("\n")
 
-print("Output Multiple Variables")
+print("Output Multiple Variables:")
 x = "Python "
 y = "is "
 z = "awesome"
 print(x + y + z)
+print("\n")
 
-print("Output Multiple Variables")
+print("Output Multiple Variables:")
 x = 5
 y = 10
 print(x + y)
+print("\n")
 
-print("Output Multiple Variables")
+print("Output Multiple Variables:")
 x = 5
 y = "John"
 print(x, y)
+print("\n")
 
-print("Global Variables")
+print("Global Variables:")
 x = "awesome"
+print("\n")
 
 
 def myFunc():
@@ -77,8 +90,9 @@ def myFunc():
 
 
 myFunc()
+print("\n")
 
-print("Local Variables")
+print("Local Variables:")
 x = "awesome"
 
 
@@ -90,8 +104,10 @@ def myfunc():
 myfunc()
 
 print("Python is " + x)
+print("\n")
 
-print("Global keyword")
+
+print("Global keyword:")
 
 
 def myFunc():
@@ -101,8 +117,9 @@ def myFunc():
 
 myFunc()
 print("Python is " + x)
+print("\n")
 
-print("Global keyword 2")
+print("Global keyword 2:")
 x = "awesome"
 
 
